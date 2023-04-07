@@ -7,7 +7,7 @@
 El proyecto es una API REST de una clínica odontológica en proceso.
 
 Como la vista todavía es un trabajo en proceso, dejo el archivo `clinica-odontologica.postman_collection` donde están las pruebas realizadas desde Postman con su respectivo environment.
-El primer request que hay que hacer para que el resto funcionen es el de login, en la aplicación se encuientran hardcodeados dos usuarios `username:admin password:admin` o `username:user password:user`. Tambíen se puede configurar la opción de Basic Auth en las solucitudes con los datos del usuario.
+El primer request que hay que hacer es el de login que nos devuelve el Bearer Token necesario para el resto de las consultas, en la aplicación se encuientran hardcodeados dos usuarios `username:admin password:admin` o `username:user password:user`.
 
 Una vez que la aplicación esté corriendo, podés acceder a la url [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 y ver la documentación. De cualquier manera también está en la sección [Endpoints](#endpoints).
@@ -165,8 +165,8 @@ java -jar ClinicaOdontologica.jar
 - Obtener todos: `GET` a `PATH/turnos`
 
 [github-shield]: https://img.shields.io/badge/GitHub-lucasgustavodiaz-blue?logo=github&style=flat
-[github-url]: https://github.com/lucasgustavodiaz/BE1-Clinica-Dental-Integrador
-[build-shield]: https://app.travis-ci.com/lucasgustavodiaz/BE1-Clinica-Dental-Integrador.svg?branch=main&status=passed
-[build-url]: https://app.travis-ci.com/github/lucasgustavodiaz/BE1-Clinica-Dental-Integrador
-[codacy-shield]: https://app.codacy.com/project/badge/Grade/a9e0e2a01d934f1b8a2f2f46320d4539
-[codacy-url]: https://app.codacy.com/gh/lucasgustavodiaz/BE1-Clinica-Dental-Integrador/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
+[github-url]: https://github.com/lucasgustavodiaz/BE1-Clinica-Dental-Integrador-JWT
+[build-shield]: https://app.travis-ci.com/lucasgustavodiaz/BE1-Clinica-Dental-Integrador-JWT.svg?branch=main&status=passed
+[build-url]: https://app.travis-ci.com/github/lucasgustavodiaz/BE1-Clinica-Dental-Integrador-JWT
+[codacy-shield]: https://app.codacy.com/project/badge/Grade/81df3364555e41d884de56ce0c258abd
+[codacy-url]: https://app.codacy.com/gh/lucasgustavodiaz/BE1-Clinica-Dental-Integrador-JWT/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
