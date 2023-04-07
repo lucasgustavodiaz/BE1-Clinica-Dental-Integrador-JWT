@@ -8,7 +8,6 @@ import clinica.model.PacienteDTO;
 import clinica.service.impl.PacienteService;
 import clinica.util.Mapper;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

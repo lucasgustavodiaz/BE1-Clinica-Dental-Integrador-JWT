@@ -1,6 +1,5 @@
 package clinica.controller;
 
-import clinica.entities.security.Usuario;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.User;
