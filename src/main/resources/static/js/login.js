@@ -47,9 +47,9 @@ function validacionNoVacio(texto) {
     return resultado
 }
 
-function normalizacionLogin(email, password) {
+function normalizacionLogin(username, password) {
     const usuario = {
-        username: email.trim(),
+        username: username.trim(),
         password: password.trim()
 
     }
@@ -77,10 +77,6 @@ function fetchApiLogin(url,payload) {
     })
     .then( data => {
         console.log(data);
-        console.log(data.token);
-        //si llega correctamente un token
-        console.log("TOKEN desde login.js: ", data.token);
-        console.log(data.token);
         if(data.token){
             localStorage.setItem('jwt', data.token);
 
