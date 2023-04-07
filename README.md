@@ -7,7 +7,7 @@
 El proyecto es una API REST de una clínica odontológica en proceso.
 
 Como la vista todavía es un trabajo en proceso, dejo el archivo `clinica-odontologica.postman_collection` donde están las pruebas realizadas desde Postman con su respectivo environment.
-El primer request que hay que hacer es el de login que nos devuelve el Bearer Token necesario para el resto de las consultas, en la aplicación se encuientran hardcodeados dos usuarios `username:admin password:admin` o `username:user password:user`.
+El primer request que hay que hacer es el de login que nos devuelve el Bearer Token necesario para el resto de las consultas, en la aplicación se encuentran hardcodeados dos usuarios `username:admin password:admin` o `username:user password:user` para poder realizar las pruebas.
 
 Una vez que la aplicación esté corriendo, podés acceder a la url [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 y ver la documentación. De cualquier manera también está en la sección [Endpoints](#endpoints).
