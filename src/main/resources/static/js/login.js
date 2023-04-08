@@ -79,6 +79,7 @@ function fetchApiLogin(url,payload) {
         console.log(data);
         if(data.token){
             localStorage.setItem('jwt', data.token);
+            localStorage.setItem('username', payload.username);
 
             location.href = '/index.html'
         }

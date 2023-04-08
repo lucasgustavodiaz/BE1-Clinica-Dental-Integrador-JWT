@@ -1,4 +1,4 @@
-const jwt = localStorage.getItem('jwt');
+const jwt = localStorage.getItem('jwt')
 if (!jwt) {
-  location.replace('/login.html');
+  location.replace('/login.html')
 }
